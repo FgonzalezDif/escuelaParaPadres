@@ -1,0 +1,15 @@
+.test-container{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.test-title{
+    display: flex;
+    padding-bottom: 20px;
+    align-content: center;
+    justify-content: center;
+}
+.test{
+    padding-bottom: 40px;
+}
