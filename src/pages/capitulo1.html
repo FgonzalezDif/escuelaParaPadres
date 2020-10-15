@@ -45,43 +45,57 @@
           <form class="needs-validation test" novalidate>
             <div class="form-row">
               <div class="col-md-6 mb-3">
-                <label for="validationCustom01">First name</label>
-                <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
-                <div class="valid-feedback">
-                  Looks good!
-                </div>
-              </div>
-              <div class="col-md-6 mb-3">
-                <label for="validationCustom02">Last name</label>
-                <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                <label for="validationCustom01">Menciona los 3 temas principales</label>
+                <input type="text" class="form-control" id="validationCustom01" placeholder="1. Familia, 2. Familia Nuclear, 3. Familia Extendida"  required>
                 <div class="valid-feedback">
                   Looks good!
                 </div>
               </div>
             </div>
+              <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationCustom02">Que aprendiste en este video?</label>
+                <input type="text" class="form-control" id="validationCustom02" placeholder="Definiciones, Resultados, Indicadores" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+            </div>
+          </div>
             <div class="form-row">
               <div class="col-md-6 mb-3">
-                <label for="validationCustom03">City</label>
-                <input type="text" class="form-control" id="validationCustom03" required>
+                <label for="validationCustom03">Quien es el autor del video?</label>
+                <input type="text" class="form-control" id="validationCustom03" placeholder="Pedro Perez" required>
                 <div class="invalid-feedback">
                   Please provide a valid city.
                 </div>
               </div>
+            </div>
+            <div class="form-row">
               <div class="col-md-3 mb-3">
-                <label for="validationCustom04">State</label>
+                <label for="validationCustom04">Cuantos años se recomienda tener para empezar una familia?</label>
                 <select class="custom-select" id="validationCustom04" required>
-                  <option selected disabled value="">Choose...</option>
-                  <option>...</option>
+                  <option selected disabled value="">ELige la opcion correcta.</option>
+                  <option>18</option>
+                  <option>14</option>
+                  <option>25</option>
                 </select>
                 <div class="invalid-feedback">
-                  Please select a valid state.
+                  Selecciona una de las opciones.
                 </div>
               </div>
+            </div>
+            <div class="form-row">
               <div class="col-md-3 mb-3">
-                <label for="validationCustom05">Zip</label>
-                <input type="text" class="form-control" id="validationCustom05" required>
+                <label for="validationCustom04">Define la palabra familia.</label>
+                <select class="custom-select" id="validationCustom04" required>
+                  <option selected disabled value="">ELige la opcion correcta.</option>
+                  <option>Son las personas que nos rodean.</option>
+                  <option>La comunidad con la que vivimos.</option>
+                  <option>El nucleo de la sociedad.</option>
+                </select>
                 <div class="invalid-feedback">
-                  Please provide a valid zip.
+                  Selecciona una de las opciones.
                 </div>
               </div>
             </div>
@@ -89,14 +103,14 @@
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                 <label class="form-check-label" for="invalidCheck">
-                  Agree to terms and conditions
+                  Estas son mis respuestas finales.
                 </label>
                 <div class="invalid-feedback">
-                  You must agree before submitting.
+                  Tienes que marcar la caja al terminar la evaluacion.
                 </div>
               </div>
             </div>
-            <button class="btn btn-primary" type="submit">Submit form</button>
+            <button class="btn btn-primary" type="submit">Evaluar</button>
           </form>
           
           <script>

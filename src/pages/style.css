@@ -13,3 +13,9 @@
 .test{
     padding-bottom: 40px;
 }
+
+.test-container{
+    display:flex;
+    justify-content: center;
+    
+}
